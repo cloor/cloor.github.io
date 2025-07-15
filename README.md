@@ -1,1 +1,1 @@
-This is profile page of [Seungwoo Chung.](https://cloor.github.io/)
+This is profile page of [Seungwoo Chung](https://cloor.github.io/).
