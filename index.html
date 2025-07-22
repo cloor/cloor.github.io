@@ -31,9 +31,9 @@
     }
 
     .profile-container img {
-  width: 220px;
-  height: auto;
-}
+      width: 220px;
+      height: auto;
+    }
 
     ul.pubs {
       padding-left: 20px;
@@ -46,35 +46,37 @@
 </head>
 
 <body>
-<h1 style="text-align: center; font-size: 36px; margin-bottom: 20px;">Seungwoo Chung</h1>
 <div class="profile-container">
-    <img src="images/IMG_0127.png" alt="Profile Photo">
+  <img src="images/IMG_0127.png" alt="Profile Photo">
+  <div>
+    <h1 style="text-align: center; font-size: 36px; margin-bottom: 20px;">Seungwoo Chung</h1>
+    <p>
+      I am currently working as a Research Intern at the <a href="https://vig.kist.re.kr/" target="_blank">VIG Lab</a> at KIST, following the completion of my M.S. in Artificial Intelligence at Hanyang University, where I conducted research under the supervision of Prof. Taehyun Kim at <a href="https://sites.google.com/view/lliger9" target="_blank">VILab</a>.  
+      My research interests include low-level computer vision problems—such as haze removal, shadow removal, and super-resolution—as well as diffusion models and protein structure prediction.  
+      I also hold a B.S. in Mathematics and Big Data Science from Hanyang University.  
+      <br><br>
+      <span style="display: block; text-align: center;">
+        <a href="mailto:jswoo9898@gmail.com">Email</a> / 
+        <a href="https://www.linkedin.com/in/chungseungwoo/" target="_blank">LinkedIn</a> / 
+        <a href="https://github.com/cloor" target="_blank">GitHub</a> / 
+        <a href="papers/CV_Seungwoo_Chung.pdf" target="_blank">CV</a>
+      </span>
+    </p>
+  </div>
+</div>
 
-      <p>
-  I am currently working as a Research Intern at the <a href="https://vig.kist.re.kr/" target="_blank">VIG Lab</a> at KIST, following the completion of my M.S. in Artificial Intelligence at Hanyang University, where I conducted research under the supervision of Prof. Taehyun Kim at <a href="https://sites.google.com/view/lliger9" target="_blank">VILab</a>.  
-  My research interests include low-level computer vision problems—such as haze removal, shadow removal, and super-resolution—as well as diffusion models and protein structure prediction.  
-  I also hold a B.S. in Mathematics and Big Data Science from Hanyang University.  
-  <br><br>
-  <span style="display: block; text-align: center;">
-    <a href="mailto:jswoo9898@gmail.com">Email</a> / 
-    <a href="https://www.linkedin.com/in/chungseungwoo/" target="_blank">LinkedIn</a> / 
-    <a href="https://github.com/cloor" target="_blank">GitHub</a> / 
-    <a href="papers/CV_Seungwoo_Chung.pdf" target="_blank">CV</a>
-  </span>
-</p>
-
-</div></div>
-
-  <h2>News</h2>
-  <ul>
+<h2>News</h2>
+<ul>
   <li>[07, 2025] One paper is accepted to ICCV 2025!</li>
   <li>[02, 2025] I received Master's degree from Hanyang University!</li>
-  </ul>
+</ul>
 
-
+<div style="display: flex; justify-content: space-between; align-items: baseline;">
   <h2>Publications</h2>
+  <span style="font-size: 0.8em; color: gray;">* denotes equal contributions.</span>
+</div>
 
-  <ul class="pubs" style="list-style-type: none; padding-left: 0;">
+<ul class="pubs" style="list-style-type: none; padding-left: 0;">
   <li>
     <div style="display: flex; align-items: flex-start; gap: 20px;">
       <img src="images/hazeflow.png" alt="HazeFlow" style="width: 240px; height: auto;">
@@ -82,11 +84,9 @@
         <b>HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing</b><br>
         <i>Junseong Shin*, <b>Seungwoo Chung*</b>, Yunjeong Yang, Taehyun Kim</i><br>
         ICCV 2025<br>
-        
       </div>
     </div>
   </li>
-
   <li>
     <div style="display: flex; align-items: flex-start; gap: 20px;">
       <img src="images/PAPP.png" alt="PAPP" style="width: 240px; height: auto;">
@@ -94,7 +94,6 @@
         <b>PAPP: Plug-And-Play Prompts for Shadow Removal</b><br>
         <i>Junseong Shin*, <b>Seungwoo Chung*</b>, Taehyun Kim</i><br>
         Under review<br>
-        
       </div>
     </div>
   </li>
